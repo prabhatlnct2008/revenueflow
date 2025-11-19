@@ -1,0 +1,664 @@
+AI Revenue Studio – Full Landing Page Spec
+
+This document includes:
+	•	Brand & UI guide (colors, fonts, general feel)
+	•	Full page structure in order
+	•	Exact copy for every section
+	•	Interactive elements: nav, sticky CTA, quick-win calculator, exit-intent modal
+	•	Offers: main services, platform products, ₹999 AI Funnel Checkup, free Digital Assistant hook
+
+⸻
+
+0. Brand & UI Guide
+
+Brand vibe
+	•	Modern, clean, confident.
+	•	Feels like a productized studio, not a loud agency.
+	•	Emphasis on clarity and ROI, not hypey “AI magic”.
+
+Colors
+	•	Primary background: very light grey / off-white (#F5F5F7 or similar)
+	•	Primary text: dark charcoal (#111827)
+	•	Primary accent (buttons, key highlights): deep teal/green (#0F766E or #16A34A)
+	•	Secondary accent: soft blue for tags/links (#2563EB)
+	•	Section background blocks: light neutral panels (#F3F4F6)
+	•	Badges / pills: soft indigo background with dark text (#EEF2FF bg, #4F46E5 text)
+
+Typography
+	•	Headings: Poppins / Inter / SF Pro Display, weight 600–700
+	•	Body: Inter / Roboto / SF Pro Text, weight 400–500
+	•	H1: ~32–40px desktop, 24–28px mobile
+	•	Body: 14–16px mobile, 16–18px desktop
+	•	Buttons: semi-bold, sentence case.
+
+General UI
+	•	Rounded corners: 8–12px
+	•	Subtle shadows on cards, stronger on hover
+	•	Max-width container: 1100–1200px centered
+	•	Simple line icons (check marks, arrows, chat bubbles, clocks)
+
+⸻
+
+1. Header & Navigation
+
+Layout:
+	•	Sticky header on scroll.
+	•	Left: logo/wordmark.
+	•	Center/right: nav items (anchor links).
+	•	Far right: primary CTA button.
+
+Logo text (placeholder):
+AI Revenue Studio
+
+Nav items (anchors):
+	•	Results → scroll to Case Studies
+	•	Platform → scroll to AI Growth Platform
+	•	How It Works → scroll to process
+	•	Pricing & Ways to Start → scroll to pricing section
+
+Header CTA button:
+📞 Book a Free AI Revenue Call
+
+Hover: slightly darker background, slight scale-up.
+
+⸻
+
+2. Hero Section (Above the Fold)
+
+Background:
+	•	White or very light grey.
+	•	Optional subtle gradient top-right (soft teal/blue).
+
+Left column (copy):
+
+Badge (pill):
+AI Revenue & Automation Studio for Service Businesses
+
+Headline (H1):
+Turn Your Existing Marketing into a Predictable Revenue Engine with AI
+
+Sub-headline:
+We plug into your current website, ads and follow-up, then use AI to fix the leaks — so more of the clicks you’re already paying for turn into actual customers, while repetitive work gets automated.
+
+Primary CTA button:
+📞 Book a Free AI Revenue Call
+
+Secondary CTA button (ghost/text):
+📩 See 3 Example Wins (by Email)
+
+Micro-copy under buttons:
+30-minute strategy call. No obligation. We’ll show you exactly where AI can add revenue in your funnel.
+
+Hero social proof line (small):
+Example results: 2–3× more appointments • 30–60% lower cost per sale • 10+ hours/week of manual work saved
+
+Right column (visual):
+	•	Mock dashboard/funnel graphic:
+	•	Traffic → Leads → Customers
+	•	AI icons attached to: Page, Ads, Follow-Up, Automation.
+	•	Overlay small badges like:
+	•	+18 booked calls/month
+	•	Follow-up automated
+	•	AI Website Creator • AI Ad Engine • Digital Assistant
+
+⸻
+
+3. Sticky Mobile CTA Bar
+
+Visible on mobile only, at bottom:
+	•	Left text: Free AI Revenue Call
+	•	Right button: 📞 Book Now
+
+Tap scrolls to call scheduler.
+
+⸻
+
+4. Problem / Pain Section
+
+Background: light grey panel (#F3F4F6).
+
+Title:
+If You’re Already Running Ads or Getting Leads, This Is Probably You 👇
+
+Short paragraph:
+Most businesses don’t need yet another tool. They need their existing marketing to stop leaking. If any of this sounds familiar, you’re not alone:
+
+Bullets:
+	•	You pay for clicks, but very few become real conversations.
+	•	You get “leads”, but most never reply after the first message.
+	•	Your team is busy, so follow-up is random and inconsistent.
+	•	You know AI is powerful, but you don’t know where to plug it in.
+	•	You’ve worked with agencies before and got more reports than revenue.
+
+Bridge sentence:
+We fix this by treating your business like a funnel, not a collection of disconnected assets — and then we plug AI into the parts that matter most.
+
+Inline CTA link:
+👉 Find out what’s leaking in your funnel — book a free call
+
+(Anchor to call section.)
+
+⸻
+
+5. What We Do – 90-Day AI Revenue System
+
+Background: white.
+
+Section Title:
+What We Actually Do (In Plain Language)
+
+Intro paragraph:
+We don’t just “build a website” or “write some AI copy”. We install a 90-day AI Revenue System on top of the marketing you already have, using a repeatable process that focuses on one thing: more revenue from your existing traffic and leads.
+
+Pillar 1 – AI-Redesigned Landing Pages & Offers
+
+Subheading:
+1. AI-Redesigned Landing Pages & Offers
+
+Bullets:
+	•	We rebuild or create the pages your traffic actually lands on.
+	•	We tighten your messaging with AI-assisted copy that a human edits for clarity and impact.
+	•	We design offers your best customers actually want to say yes to.
+	•	We simplify forms so they don’t scare people away, but still qualify intent.
+
+Outcome (bold):
+Outcome: More visitors become qualified leads.
+
+⸻
+
+Pillar 2 – Smarter Ads & Targeting Ideas
+
+Subheading:
+2. Smarter Ads & Targeting Ideas
+
+Bullets:
+	•	We generate fresh ad angles and hooks with AI (pain, proof, urgency, logic).
+	•	We create multiple ad variants for testing — not just one “hero” ad.
+	•	We suggest structures and audiences that match your funnel and budget.
+
+Outcome:
+Outcome: Better click-through and lower cost per lead/sale.
+
+⸻
+
+Pillar 3 – AI-Assisted Follow-Up & Sales
+
+Subheading:
+3. AI-Assisted Follow-Up & Sales
+
+Bullets:
+	•	We design AI-written email and WhatsApp sequences tailored to your business.
+	•	We give your team simple scripts and templates for calls and chats.
+	•	We define when to send what, and to whom, so hot leads don’t go cold.
+
+Outcome:
+Outcome: More leads actually become customers.
+
+⸻
+
+Pillar 4 – AI Automation of Repetitive Work
+
+Subheading:
+4. AI Automation of Repetitive Work
+
+Bullets:
+	•	We identify repetitive tasks your team is stuck doing manually.
+	•	We automate first-contact replies, FAQs and simple triage.
+	•	We set up reminders, check-ins and simple reports that run on their own.
+
+Outcome:
+Outcome: You and your team spend more time closing, less time chasing.
+
+Inline CTA:
+✅ Want this system in your business? Book your AI Revenue Call
+
+(Anchor to call section.)
+
+⸻
+
+6. The AI Growth Platform (Your Products)
+
+Background: light neutral, with cards.
+
+Section Title:
+The AI Growth Platform You Get Access To
+
+Intro:
+Under the hood, our 90-day system runs on a set of tools we’ve built and configured for service businesses. You don’t pay extra for software — we use these to deliver results and, when it makes sense, we give you access too.
+
+Card 1 – AI Website Creator
+
+Title:
+AI Website Creator
+
+Body:
+Spin up high-converting websites or landing pages that are structured for leads, not just looks. We start from your current site (or a blank slate) and use AI to generate layouts and copy that we then refine for your offer and audience.
+
+Mini bullets:
+	•	Launch focused campaign pages fast
+	•	Test new offers without waiting on devs
+
+⸻
+
+Card 2 – On-Page AI Editor
+
+Title:
+On-Page AI Editor
+
+Body:
+Once your pages are live, you can click on any text section, headline or block and ask AI to improve it. Change tone, headline or offers without touching code — we’ll set up the editor so you can keep iterating without needing us for every small tweak.
+
+Mini bullets:
+	•	Edit copy directly on your site
+	•	Ask AI: “Make this clearer / more urgent / more friendly”
+
+⸻
+
+Card 3 – AI Digital Assistant (WhatsApp + Email)
+
+Title:
+AI Digital Assistant (WhatsApp + Email)
+
+Body:
+A simple assistant that checks in with your leads and clients via WhatsApp and email. Reminders, follow-ups and “just checking in” messages go out without your team having to remember.
+
+Hook line:
+Included as a free starter for all projects (with reasonable usage limits).
+
+Mini bullets:
+	•	Automatic first-contact replies
+	•	Appointment or trial reminders
+	•	Light-touch reactivation nudges
+
+⸻
+
+Card 4 – Ad Creator & Optimizer
+
+Title:
+AI Ad Creator & Optimizer
+
+Body:
+Generate and iterate Meta ad copy and creative ideas that are aligned to your funnel. We use this to create multiple ad variants and keep improving them based on performance.
+
+Mini bullets:
+	•	Multiple ad angles (pain, proof, urgency)
+	•	Faster creative testing without burning your team out
+
+⸻
+
+Section footer line:
+We don’t just hand you tools and disappear. We use this platform to implement your AI Revenue System — and teach your team how to get ongoing value from it.
+
+⸻
+
+7. Case Studies / Results
+
+Background: white.
+
+Section Title:
+What This Looks Like in Real Businesses
+
+Intro:
+These example scenarios show the kind of impact we aim for with each client. The exact numbers will vary in your business, but the pattern is the same: fix the funnel, plug in AI, and let the system run.
+
+Case Study 1 – Dental Clinic, Bangalore
+
+Tag line:
+Example Scenario: Local Dental Clinic — More Appointments from the Same Ad Spend
+
+Before:
+	•	₹35,000/month on Facebook & Instagram ads
+	•	~120 leads/month
+	•	Only 10–12 new patients actually showing up
+
+What we implemented:
+	•	New landing page focused on a single core offer: “New Patient Check-up + Cleaning Package”
+	•	Removed 4 unnecessary form fields and added 1 smart qualifier
+	•	AI-written WhatsApp follow-up:
+	•	Instant “thanks + booking link” message
+	•	Reminder at 24 hours
+	•	"Last chance this week" nudge before the weekend
+
+90-day modeled outcome:
+	•	Lead → appointment: 8% → 22%
+	•	Additional 24+ patients per month
+	•	Extra revenue ≈ ₹72,000/month (₹3,000 avg ticket)
+
+Estimated project investment:
+~₹20,000 implementation + light monthly support.
+
+⸻
+
+Case Study 2 – Fitness Studio, Delhi NCR
+
+Tag line:
+Example Scenario: Fitness Studio — Lower Cost per Member, More Sign-Ups
+
+Before:
+	•	₹40,000/month on ads to a generic homepage
+	•	Inconsistent challenge sign-ups
+	•	Manual follow-up when someone remembered
+
+What we implemented:
+	•	Focused funnel for one offer: “21-Day Transformation Challenge”
+	•	AI-built landing page with clear transformation, proof and FAQs
+	•	5 high-converting ad creatives with different angles
+	•	Email + WhatsApp follow-up for people who enquired but didn’t pay
+	•	Urgency messages tied to batch start dates
+
+60-day modeled outcome:
+	•	Cost per paying challenge member: ₹1,800 → ₹1,050
+	•	Monthly challenge sign-ups: 22 → 35
+	•	Extra revenue ≈ ₹78,000+/month
+
+Estimated project investment:
+~₹25,000–₹30,000.
+
+⸻
+
+Case Study 3 – B2B Consultant
+
+Tag line:
+Example Scenario: B2B Consultant — More Discovery Calls from Existing Traffic
+
+Before:
+	•	Traffic from LinkedIn + content going to a generic Services page
+	•	3–4 booked discovery calls per month
+
+What we implemented:
+	•	New flagship offer landing page with a clear outcome and proof
+	•	Short “mini-diagnosis” form to pre-qualify serious buyers
+	•	4-email AI-generated nurture sequence adapted to the founder’s voice
+	•	Calendar + reminder automation to reduce no-shows
+
+120-day modeled outcome:
+	•	Visitor → booked call: 0.9% → 3.5%
+	•	Discovery calls per month: 3–4 → 8–10
+	•	Deals per quarter: 3 → 9 (depending on close rate)
+
+Estimated project investment:
+~$500–$750 (₹40,000–₹60,000 equivalent).
+
+⸻
+
+CTA under case studies:
+📞 See what this might look like with your numbers — book your free AI Revenue Call
+
+Subtext:
+On the call, we’ll rough-calc what improving your funnel by even a few percentage points could mean per month.
+
+⸻
+
+8. “Is This For Me?” Filter
+
+Background: light grey.
+
+Title:
+Who This Is (and Isn’t) For
+
+This is for you if:
+	•	Each new client is worth at least ₹10,000–₹15,000 to your business.
+	•	You’re already running ads or getting inbound leads.
+	•	You feel you’re leaving money on the table in follow-up and funnel leaks.
+	•	You want a partner who implements, not just sends reports.
+
+This is not for you if:
+	•	You’re looking for the cheapest possible service or free experiments.
+	•	You don’t have any traffic or leads coming in yet.
+	•	You want “AI experiments” without clear revenue goals.
+
+Inline CTA:
+If that sounds like you, book your AI Revenue Call and let’s look at your funnel together.
+
+⸻
+
+9. How We Work (3-Step Process)
+
+Background: white.
+
+Title:
+How We Work Together (No Jargon)
+
+Step 1 – Free AI Revenue Call (30 mins)
+We look at your current funnel together (website, ads, follow-up). You tell us your numbers and goals. We give you 2–3 concrete ideas on the spot, even if you don’t work with us.
+
+Step 2 – AI Revenue Blueprint
+Within a few days, you receive a simple, no-fluff document:
+	•	Where your funnel is leaking
+	•	Which AI-powered fixes we recommend
+	•	Rough projections of what those fixes could do
+	•	A clear project scope and fixed price
+
+Step 3 – Implementation Sprint (2–4 weeks)
+If you’re in, we implement:
+	•	New or updated landing pages
+	•	Ad angles and creatives
+	•	Follow-up sequences (email/WhatsApp)
+	•	Basic automations tied into your tools
+
+You get weekly updates and a clear “before vs after” at the end of the sprint.
+
+CTA:
+✅ Start with the free call — decide only after you see the plan.
+
+⸻
+
+10. Quick Win Estimator (Interactive)
+
+Title:
+What Could Fixing Your Funnel Be Worth? (Quick Estimate)
+
+Copy:
+No maths degree needed. Enter rough numbers — we’ll show a simple modeled upside if your funnel improves even a little.
+
+Fields:
+	1.	Average revenue per new customer (₹)
+	2.	Approx. new leads per month
+	3.	Approx. % of leads who currently become customers
+
+Button:
+Calculate My Potential Upside
+
+Result text (dynamic):
+If we improve your lead→customer rate from [X]% to [X+5]%, that’s roughly [extra_customers] extra customers/month — or about ₹[extra_revenue]/month in added revenue.
+
+Follow-up CTA:
+📞 Want help actually getting there? Book your free AI Revenue Call.
+
+⸻
+
+11. Pricing & Ways to Start (Including ₹999 Checkup)
+
+Title:
+Pricing & Ways to Start
+
+Intro:
+We keep pricing straightforward so you can decide quickly. Start with a full project or a small paid checkup, and move up only if it makes sense.
+
+Plan 1 – Funnel Fix (Single Offer)
+
+Badge: Most Popular
+
+Title:
+Funnel Fix – Single Offer
+
+Description:
+Perfect if you have one core service or campaign and know your funnel is leaking.
+
+Includes:
+	•	AI funnel audit (page + ads + follow-up)
+	•	1 high-converting landing page (copy + structure)
+	•	3–5 ad variations aligned with your offer
+	•	1 main follow-up sequence (email or WhatsApp)
+	•	Basic setup of your Digital Assistant for first-contact + simple reminder flow
+
+Price line:
+Typical investment: from ₹20,000
+
+⸻
+
+Plan 2 – Growth & Automation Bundle
+
+Title:
+Growth & Automation Bundle
+
+Description:
+For businesses with multiple channels and more leads who want deeper automation and nurturing.
+
+Includes:
+	•	Everything in Funnel Fix
+	•	Additional nurture sequence (email + WhatsApp)
+	•	1–2 additional automations (e.g., FAQ bot, lead tagging, reactivation)
+	•	4–6 weeks of optimisation and tweaks based on early data
+
+Price line:
+Typical investment: ₹40,000–₹60,000 (depending on scope and tools).
+
+⸻
+
+Plan 3 – AI Funnel Checkup (Starter Offer)
+
+Badge: Low-Risk Starter
+
+Title:
+AI Funnel Checkup – ₹999
+
+Description:
+Not ready for a full project yet? Start small. Get a professional AI review of your funnel for less than a day’s ad spend.
+
+What you get:
+	•	Short intake form (we collect your URLs, business type and main goal)
+	•	Review of your current website/landing page, ads and basic follow-up
+	•	1-page action plan (PDF) with the top 3 fixes we’d make
+	•	5–10 minute Loom-style video walkthrough of your funnel
+	•	Where each part of our platform (website creator, editor, assistant, ad engine) would plug in
+
+Hook line:
+Your ₹999 is fully credited towards any project you do with us within 60 days.
+
+Button:
+🧪 Start with the AI Funnel Checkup – ₹999
+
+Micro-text:
+We’ll email you the intake form and timeline as soon as you pay.
+
+⸻
+
+12. Primary Conversion Section – Book a Call
+
+Title:
+Book Your Free AI Revenue Call
+
+Copy:
+In 30 minutes, we’ll map out your current funnel, show you 2–3 specific places AI can add revenue, and tell you honestly if we’re the right fit or not.
+
+Form fields / Scheduler:
+	•	Name
+	•	Email
+	•	WhatsApp number
+	•	Business website / main page
+	•	Main goal for the next 90 days (dropdown)
+	•	More leads
+	•	Better lead quality
+	•	More sales from existing leads
+	•	Reduce manual workload
+	•	Preferred time (or embed Calendly)
+
+Primary button:
+📞 Schedule My Free AI Revenue Call
+
+Reassurance line:
+No pressure, no hard sell. Worst case, you walk away with a clearer view of your funnel.
+
+⸻
+
+13. Secondary Conversion – Email Lead Magnet
+
+Title:
+Not Ready to Talk Yet? Get Our AI Funnel Playbook.
+
+Copy:
+Drop your email and we’ll send you:
+	•	A 3-page AI Funnel Playbook with before/after examples
+	•	3 real email/WhatsApp sequences you can adapt
+	•	The prompt frameworks we use to improve landing pages and ads
+
+Form fields:
+	•	Name
+	•	Email
+	•	Business type (Clinic, Fitness, Coaching, Agency, Other)
+
+Button:
+📩 Send Me the AI Funnel Playbook
+
+Micro-copy:
+1–2 practical emails per week. No spam, no “AI news”, just things you can test.
+
+⸻
+
+14. FAQ Section
+
+Title:
+Questions You Might Have
+
+Q1: Do you just use ChatGPT and charge me on top?
+A1:
+We use AI tools, yes — but the value is in how we design your funnel, offers, follow-up and automations based on your numbers and customers. Tools are cheap. Good systems are not.
+
+Q2: Do I need to change my entire tech stack?
+A2:
+No. We start with what you already use (website, email platform, WhatsApp, CRM if any). If we recommend a new tool, it will be simple, affordable and clearly justified.
+
+Q3: How long before I see results?
+A3:
+Most clients start seeing changes in lead quality and response rates within 2–4 weeks of implementation, depending on traffic volume and how quickly we can launch your funnel changes.
+
+Q4: What if this doesn’t work for me?
+A4:
+On the AI Revenue Call and in the AI Revenue Blueprint, we’ll be honest about what’s realistic. If we don’t think we can make a meaningful difference, we won’t recommend a project.
+
+Q5: Are you a long-term agency?
+A5:
+We work more like a special forces team: come in, fix the critical parts, set up systems and either stay on for light optimisation or hand over cleanly to your team.
+
+CTA below FAQ:
+💬 Still unsure? Ask about your specific situation on WhatsApp or book a free call.
+
+⸻
+
+15. Exit-Intent Modal & Footer
+
+Exit-Intent Modal (Desktop)
+
+Headline:
+Before You Go — Want Our AI Funnel Playbook for Free?
+
+Body:
+It’s a short, practical PDF with before/after examples, real follow-up sequences and the exact prompt structures we use to fix funnels.
+
+Field:
+Email
+
+Primary button:
+📩 Yes, Send Me the Playbook
+
+Secondary link (small):
+No thanks, I’ll figure it out the hard way
+
+Confirmation message after submit:
+Thanks! Check your email in a few minutes. You can always book a call later if you want us to help implement this.
+
+Footer
+
+Background: dark charcoal (#111827) with light text.
+
+Brand blurb:
+We’re an AI Revenue & Automation Studio helping service businesses turn their existing marketing into predictable growth using practical, battle-tested AI systems — not generic hype.
+
+Contact:
+📍 Based in [Your City], India
+📧 hello@[yourdomain].com
+📞 +91-XXXXXXXXXX
+
+Links:
+About • Case Studies • Terms • Privacy
