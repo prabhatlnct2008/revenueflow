@@ -52,9 +52,9 @@ export default function PricingSection() {
   ]
 
   return (
-    <section id="pricing" className="py-16 md:py-24 bg-white">
+    <section id="pricing" className="py-20 md:py-28 bg-white">
       <div className="section-container">
-        <div className="text-center max-w-3xl mx-auto mb-12">
+        <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-[#111827] mb-6">
             Pricing & Ways to Start
           </h2>
@@ -63,7 +63,7 @@ export default function PricingSection() {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-3 gap-6">
+        <div className="grid lg:grid-cols-3 gap-8">
           {plans.map((plan) => (
             <div
               key={plan.title}

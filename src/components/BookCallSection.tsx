@@ -61,9 +61,9 @@ export default function BookCallSection() {
   }
 
   return (
-    <section id="book-call" className="py-16 md:py-24 bg-gradient-to-b from-[#E0F2F1] to-[#F3F4F6]">
+    <section id="book-call" className="py-20 md:py-28 bg-gradient-to-b from-[#E0F2F1] to-[#F3F4F6]">
       <div className="section-container">
-        <div className="text-center max-w-2xl mx-auto mb-12">
+        <div className="text-center max-w-2xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-[#111827] mb-6">
             Book Your Free AI Revenue Call
           </h2>

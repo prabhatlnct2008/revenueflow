@@ -65,18 +65,18 @@ export default function WhatWeDoSection() {
   ]
 
   return (
-    <section className="py-16 md:py-24 bg-white">
+    <section className="py-20 md:py-28 bg-white">
       <div className="section-container">
-        <div className="text-center max-w-3xl mx-auto mb-12">
+        <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-[#111827] mb-6">
-            What We Actually Do <span className="text-[#0F766E]">(In Plain Language)</span>
+            What We Actually Do <span className="text-gray-500">(In Plain Language)</span>
           </h2>
           <p className="text-lg text-gray-600">
             We don&apos;t just &quot;build a website&quot; or &quot;write some AI copy&quot;. We install a 90-day AI Revenue System on top of the marketing you already have, using a repeatable process that focuses on one thing: more revenue from your existing traffic and leads.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-2 gap-8">
           {pillars.map((pillar) => (
             <div key={pillar.number} className="card border border-gray-100">
               <div className="flex items-start gap-4 mb-4">

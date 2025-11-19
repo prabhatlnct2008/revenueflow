@@ -29,9 +29,9 @@ export default function FAQSection() {
   ]
 
   return (
-    <section className="py-16 md:py-24 bg-[#F3F4F6]">
+    <section className="py-20 md:py-28 bg-[#F3F4F6]">
       <div className="section-container">
-        <div className="text-center max-w-3xl mx-auto mb-12">
+        <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-[#111827]">
             Questions You Might Have
           </h2>
