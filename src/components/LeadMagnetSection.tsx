@@ -2,12 +2,16 @@
 
 import { useState } from 'react'
 
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000'
+
 export default function LeadMagnetSection() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     businessType: '',
   })
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle')
 
   const businessTypes = [
     'Clinic',
@@ -17,11 +21,42 @@ export default function LeadMagnetSection() {
     'Other',
   ]
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    // Handle form submission
-    console.log('Lead magnet form submitted:', formData)
-    alert('Thank you! Check your email for the AI Funnel Playbook.')
+    setIsSubmitting(true)
+
+    try {
+      const response = await fetch(`${API_BASE}/api/leads`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          ...formData,
+          source: 'lead_magnet',
+        }),
+      })
+
+      if (response.ok) {
+        setSubmitStatus('success')
+        setFormData({ name: '', email: '', businessType: '' })
+
+        // Track event
+        fetch(`${API_BASE}/api/events`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            event_type: 'lead_magnet_submission',
+            event_data: { email: formData.email, businessType: formData.businessType },
+          }),
+        })
+      } else {
+        setSubmitStatus('error')
+      }
+    } catch (error) {
+      console.error('Error submitting:', error)
+      setSubmitStatus('error')
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   return (
@@ -84,12 +119,34 @@ export default function LeadMagnetSection() {
                 </select>
               </div>
 
-              <button type="submit" className="w-full btn-primary justify-center">
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                </svg>
-                Send Me the AI Funnel Playbook
+              <button
+                type="submit"
+                disabled={isSubmitting}
+                className="w-full btn-primary justify-center disabled:opacity-50"
+              >
+                {isSubmitting ? (
+                  'Sending...'
+                ) : (
+                  <>
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                    Send Me the AI Funnel Playbook
+                  </>
+                )}
               </button>
+
+              {submitStatus === 'success' && (
+                <div className="mt-4 p-3 bg-green-100 text-green-700 rounded-lg text-sm text-center">
+                  Thank you! Check your email for the AI Funnel Playbook.
+                </div>
+              )}
+
+              {submitStatus === 'error' && (
+                <div className="mt-4 p-3 bg-red-100 text-red-700 rounded-lg text-sm text-center">
+                  Something went wrong. Please try again.
+                </div>
+              )}
             </div>
 
             <p className="text-center text-sm text-gray-500 mt-4">

@@ -38,31 +38,9 @@ export default function Hero() {
             </div>
 
             {/* Micro-copy */}
-            <p className="text-sm text-gray-500 mb-8">
+            <p className="text-sm text-gray-500">
               30-minute strategy call. No obligation. We&apos;ll show you exactly where AI can add revenue in your funnel.
             </p>
-
-            {/* Social Proof */}
-            <div className="flex flex-wrap gap-4 text-sm">
-              <div className="flex items-center gap-2">
-                <svg className="w-5 h-5 text-[#0F766E]" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                </svg>
-                <span className="text-gray-600">2-3x more appointments</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <svg className="w-5 h-5 text-[#0F766E]" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                </svg>
-                <span className="text-gray-600">30-60% lower cost per sale</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <svg className="w-5 h-5 text-[#0F766E]" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                </svg>
-                <span className="text-gray-600">10+ hours/week saved</span>
-              </div>
-            </div>
           </div>
 
           {/* Right Column - Funnel Graphic */}
@@ -71,7 +49,7 @@ export default function Hero() {
               {/* Funnel Flow */}
               <div className="flex items-center justify-between mb-8">
                 <div className="text-center">
-                  <div className="w-16 h-16 bg-white rounded-xl shadow-sm flex items-center justify-center mb-2 mx-auto">
+                  <div className="w-16 h-16 bg-gray-100 rounded-xl shadow-sm flex items-center justify-center mb-2 mx-auto">
                     <svg className="w-8 h-8 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
@@ -83,8 +61,8 @@ export default function Hero() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
                 <div className="text-center">
-                  <div className="w-16 h-16 bg-white rounded-xl shadow-sm flex items-center justify-center mb-2 mx-auto">
-                    <svg className="w-8 h-8 text-[#0F766E]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <div className="w-16 h-16 bg-blue-50 rounded-xl shadow-sm flex items-center justify-center mb-2 mx-auto">
+                    <svg className="w-8 h-8 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                     </svg>
                   </div>
@@ -94,7 +72,7 @@ export default function Hero() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
                 <div className="text-center">
-                  <div className="w-16 h-16 bg-white rounded-xl shadow-sm flex items-center justify-center mb-2 mx-auto">
+                  <div className="w-16 h-16 bg-[#E0F2F1] rounded-xl shadow-sm flex items-center justify-center mb-2 mx-auto">
                     <svg className="w-8 h-8 text-[#0F766E]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
@@ -105,42 +83,42 @@ export default function Hero() {
 
               {/* AI Feature Cards */}
               <div className="grid grid-cols-2 gap-3">
-                <div className="bg-white rounded-lg p-3 shadow-sm border border-gray-100">
+                <div className="bg-[#E0F2F1] rounded-lg p-3">
                   <div className="flex items-center gap-2 mb-1">
                     <svg className="w-4 h-4 text-[#0F766E]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                     </svg>
                     <span className="text-sm font-semibold text-[#0F766E]">AI Website Creator</span>
                   </div>
-                  <span className="text-xs text-gray-500">+18 booked calls/month</span>
+                  <span className="text-xs text-gray-600">+18 booked calls/month</span>
                 </div>
-                <div className="bg-white rounded-lg p-3 shadow-sm border border-gray-100">
+                <div className="bg-blue-50 rounded-lg p-3">
                   <div className="flex items-center gap-2 mb-1">
-                    <svg className="w-4 h-4 text-[#0F766E]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z" />
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z" />
                     </svg>
-                    <span className="text-sm font-semibold text-[#0F766E]">AI Ad Engine</span>
+                    <span className="text-sm font-semibold text-blue-600">AI Ad Engine</span>
                   </div>
-                  <span className="text-xs text-gray-500">Lower CPA by 40%</span>
+                  <span className="text-xs text-gray-600">Lower CPA by 40%</span>
                 </div>
-                <div className="bg-white rounded-lg p-3 shadow-sm border border-gray-100">
+                <div className="bg-[#E0F2F1] rounded-lg p-3">
                   <div className="flex items-center gap-2 mb-1">
                     <svg className="w-4 h-4 text-[#0F766E]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
                     </svg>
                     <span className="text-sm font-semibold text-[#0F766E]">Digital Assistant</span>
                   </div>
-                  <span className="text-xs text-gray-500">Follow-up automated</span>
+                  <span className="text-xs text-gray-600">Follow-up automated</span>
                 </div>
-                <div className="bg-white rounded-lg p-3 shadow-sm border border-gray-100">
+                <div className="bg-[#E0F2F1] rounded-lg p-3">
                   <div className="flex items-center gap-2 mb-1">
                     <svg className="w-4 h-4 text-[#0F766E]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
                     <span className="text-sm font-semibold text-[#0F766E]">Smart Workflows</span>
                   </div>
-                  <span className="text-xs text-gray-500">10+ hrs/week saved</span>
+                  <span className="text-xs text-gray-600">10+ hrs/week saved</span>
                 </div>
               </div>
 

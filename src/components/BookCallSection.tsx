@@ -2,6 +2,8 @@
 
 import { useState } from 'react'
 
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000'
+
 export default function BookCallSection() {
   const [formData, setFormData] = useState({
     name: '',
@@ -10,6 +12,8 @@ export default function BookCallSection() {
     website: '',
     goal: '',
   })
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle')
 
   const goals = [
     'More leads',
@@ -18,11 +22,42 @@ export default function BookCallSection() {
     'Reduce manual workload',
   ]
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    // Handle form submission
-    console.log('Form submitted:', formData)
-    alert('Thank you! We will contact you soon to schedule your free AI Revenue Call.')
+    setIsSubmitting(true)
+
+    try {
+      const response = await fetch(`${API_BASE}/api/leads`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          ...formData,
+          source: 'book_call',
+        }),
+      })
+
+      if (response.ok) {
+        setSubmitStatus('success')
+        setFormData({ name: '', email: '', whatsapp: '', website: '', goal: '' })
+
+        // Track event
+        fetch(`${API_BASE}/api/events`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            event_type: 'book_call_submission',
+            event_data: { email: formData.email },
+          }),
+        })
+      } else {
+        setSubmitStatus('error')
+      }
+    } catch (error) {
+      console.error('Error submitting:', error)
+      setSubmitStatus('error')
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   return (
@@ -112,12 +147,34 @@ export default function BookCallSection() {
                 </select>
               </div>
 
-              <button type="submit" className="w-full btn-primary justify-center">
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                </svg>
-                Schedule My Free AI Revenue Call
+              <button
+                type="submit"
+                disabled={isSubmitting}
+                className="w-full btn-primary justify-center disabled:opacity-50"
+              >
+                {isSubmitting ? (
+                  'Submitting...'
+                ) : (
+                  <>
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                    </svg>
+                    Schedule My Free AI Revenue Call
+                  </>
+                )}
               </button>
+
+              {submitStatus === 'success' && (
+                <div className="mt-4 p-3 bg-green-100 text-green-700 rounded-lg text-sm text-center">
+                  Thank you! We will contact you soon to schedule your free AI Revenue Call.
+                </div>
+              )}
+
+              {submitStatus === 'error' && (
+                <div className="mt-4 p-3 bg-red-100 text-red-700 rounded-lg text-sm text-center">
+                  Something went wrong. Please try again or contact us directly.
+                </div>
+              )}
             </div>
 
             <p className="text-center text-sm text-gray-500 mt-4">
