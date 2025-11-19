@@ -60,9 +60,9 @@ export default function LeadMagnetSection() {
   }
 
   return (
-    <section id="lead-magnet" className="py-16 md:py-24 bg-[#111827]">
+    <section id="lead-magnet" className="py-20 md:py-28 bg-[#111827]">
       <div className="section-container">
-        <div className="text-center max-w-2xl mx-auto mb-12">
+        <div className="text-center max-w-2xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
             Not Ready to Talk Yet? Get Our AI Funnel Playbook.
           </h2>
