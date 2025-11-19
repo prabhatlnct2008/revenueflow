@@ -13,10 +13,13 @@ import LeadMagnetSection from '@/components/LeadMagnetSection'
 import FAQSection from '@/components/FAQSection'
 import Footer from '@/components/Footer'
 import MobileStickyCTA from '@/components/MobileStickyCTA'
+import ExitIntentModal from '@/components/ExitIntentModal'
+import EventTracker from '@/components/EventTracker'
 
 export default function Home() {
   return (
     <main>
+      <EventTracker />
       <Header />
       <Hero />
       <ProblemSection />
@@ -32,6 +35,7 @@ export default function Home() {
       <FAQSection />
       <Footer />
       <MobileStickyCTA />
+      <ExitIntentModal />
     </main>
   )
 }
